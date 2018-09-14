@@ -2,9 +2,12 @@
 import socket
 
 #------send--------
-s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+'''创建socket对象'''
 s.connect(('www.sina.com.cn',80))
+#s.connect(('www.baidu.com',80))
+'''发送数据，并且接受'''
 s.send(b'GET / HTTP/1.1\r\nHost:www.sina.com.cn\r\nConnection:close\r\n\r\n')
+#s.send(b'GET / HTTP/1.1\r\nHost:www.baidu.com\r\nConnection:close\r\n\r\n')
 #------receive------
 buffer=[]
 while True:
@@ -42,4 +45,6 @@ Location: https://www.sina.com.cn/
 X-Via-CDN: f=edge,s=ctc.chengdu.ha2ts4.27.nb.sinaedge.com,c=110.184.161.129;
 
 X-Via-Edge: 153685245918681a1b86e3850d3de083ea7d3
+A:现在的sina换成了443的https,要用SSL建立连接。
+这里baidu.com就没有问题。
 '''
