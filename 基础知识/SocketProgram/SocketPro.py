@@ -3,6 +3,7 @@ import socket
 
 #------send--------
 '''创建socket对象'''
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect(('www.sina.com.cn',80))
 #s.connect(('www.baidu.com',80))
 '''发送数据，并且接受'''
