@@ -17,3 +17,4 @@
 
 [知识 || 回调函数的理解](https://github.com/FarFromBeing/Python/tree/master/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3)
 
+[知识 || 简易if-else写法]()
