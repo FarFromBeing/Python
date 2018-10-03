@@ -1,10 +1,10 @@
 - **模块**
 
-	import xxx
+'import xxx'
 	
 当一个.py文件需要导入模块时，`import`后面的`XXX`就是一个模块其`xxx`就是xxx.py文件的文件名。
 
-	from xxx improt abc
+'from xxx import abc'
 	
 这里是从XXX模块中导入其abc的方法，这样可以直接使用`abc`
   
