@@ -19,4 +19,4 @@
 
 [知识 || 简易if-else写法](https://github.com/FarFromBeing/Python/blob/master/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%AE%80%E6%98%93%E5%88%A4%E6%96%AD%E5%86%99%E6%B3%95/%E7%AE%80%E6%98%93%E5%88%A4%E6%96%AD%E5%86%99%E6%B3%95.md)
 
-[知识 || 包，模块]()
+[知识 || 包，模块](https://github.com/FarFromBeing/Python/blob/master/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/module-package.md)
