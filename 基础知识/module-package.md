@@ -4,7 +4,7 @@
 
 	from xxx import abc
 	
-这里是从XXX模块中导入其abc的方法，这样可以直接使用`abc`
+这里是从XXX模块中导入其abc的方法，这样可以直接使用`abc`。
   
 -   **pyc 文件**
 
