@@ -1,7 +1,5 @@
 - **模块**
 
-'import xxx'
-	
 当一个.py文件需要导入模块时，`import`后面的`XXX`就是一个模块其`xxx`就是xxx.py文件的文件名。
 
 'from xxx import abc'
