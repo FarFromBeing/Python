@@ -1,7 +1,7 @@
-#传入函数
-# x=abs(-10)
-# # print(x)
-# #可以把函数赋值给变量
+'''
+传入函数，
+可以把函数赋值给变量
+'''
 # f=abs
 # # print(f(-20))
 # 
@@ -11,16 +11,17 @@
 #     print('main')
 #     print(add_f(5,-10,abs))
 #-----------------------------------------
-#切片
+'''
+切片(Slice)
+[起始点:个数:具体操作（每2步取一个等）]
+'''
 # l=list(range(100))
 # t=tuple(l)
 # l_st='qhurhnbukahzcbn,ajzjilo'
-'''
-[起始点:个数:具体操作（每2步取一个等）]
-'''
 # print(l[:1222])
 # print(t[2:100:2])
 # print(l_st[::2])
+#-------------------------------------------
 #实现strip()
 def my_strip(str1):
     new_str=str1
@@ -43,7 +44,11 @@ def sum_blank(str1):
 #     new_str=str1
 #     for _ in new_str:
 #         if _ ==' ':
-#             str_p=new_str[:p]
+'''
+py中不能直接在str里做更改，
+使用类似new_str[:2]=new_str[2:]
+'''
+#             str_p=new_str[:p]    
 #             new_str=str_p+new_str[p+1:]
 #         p=p+1
 #     return new_str
