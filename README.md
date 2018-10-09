@@ -6,7 +6,7 @@
 
 [爬虫 || Scrapy---Mzitu.com](https://github.com/FarFromBeing/Python/tree/master/%E7%88%AC%E8%99%AB/Scrapy--Mzitu.com)
 
-[脚本]()
+[脚本](https://github.com/FarFromBeing/Python/tree/master/%E8%84%9A%E6%9C%AC%E9%9B%86)
 
 
 [知识 || 多进程](https://github.com/FarFromBeing/Python/tree/master/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Multiprocessing)
