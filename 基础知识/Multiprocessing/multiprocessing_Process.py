@@ -17,7 +17,11 @@ if __name__=='__main__':
     #启动subProcess
     p.start()
     print('Child process has started.')
-    #进程开始切换执行。如果没有这句，则会先把父进程执行完，而后子进程。
+    
+    '''
+    进程开始切换执行。
+    join()方法可以等待子进程结束后再继续往下运行，通常用于进程间的同步。
+    '''
     p.join()
     print('Child process has joined.')
     print('Child process end.')
