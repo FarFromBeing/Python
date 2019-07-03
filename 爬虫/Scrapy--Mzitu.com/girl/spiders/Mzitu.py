@@ -22,7 +22,7 @@ class MzituSpider(scrapy.Spider):
 			Eachgirl_url=each_item.xpath('.//a/@href').extract()[0]
 	#data_parse作为回调函数，其实就是调用了它，但是parse不用被修改。。。
 		yield Request(Eachgirl_url,callback=self.data_parse)
-#进入套图网页，进行相似解析操
+#进入套图网页，进行相似解析操作
 	def data_parse(self,response):
 		item=GirlItem()
 		item["images"]=response.xpath('//div[@class="main-image"]/p/a/img/@src')[0].extract().split('/')[-1]
